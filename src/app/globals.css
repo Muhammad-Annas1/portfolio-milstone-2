@@ -9,7 +9,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    color: white;
+    color: white
 
 
   }
@@ -18,7 +18,7 @@
 
 @layer components {
   .menuLink {
-    @apply cursor-pointer hover:text-[#c5c5c5];
+    @apply cursor-pointer hover:text-teal-400;
   }
 
   .tags {
