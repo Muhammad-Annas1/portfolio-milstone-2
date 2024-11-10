@@ -33,6 +33,7 @@ const Contact = () => {
             Get in touch
           </h2>
           <p className='text-black text-base sm:text-lg lg:text-xl' data-aos="zoom-in">
+            {/* eslint-disable-next-line react/no-unescaped-entities */}
             I'm always open to new opportunities and collaborations! If you have any questions, suggestions, or would like to connect, feel free to reach out. You can fill out the contact form, or drop me a message. I look forward to hearing from you!
           </p>
           <div className='flex gap-3 items-center text-black' data-aos="zoom-in">

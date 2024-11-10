@@ -16,13 +16,23 @@ const Hero = () => {
         <div className="hidden lg:block md:block sm:block"></div>
         <div className="text-[45px] sm:text-[70px] md:text-[85px] lg:text-[90px] font-bold leading-tight flex justify-center items-center sm:m-10 md:m-16 lg:m-28 ">
           <div>
-            <p className="text-teal-500" data-aos="zoom-in">Hello, I'm</p>
-            <p className="text-teal-400" data-aos="zoom-in">Muhammad</p>
-            <p className="text-teal-300" data-aos="zoom-in">Annas</p>
+            <p className="text-teal-500" data-aos="zoom-in">
+              {/* eslint-disable-next-line react/no-unescaped-entities */}
+              Hello, I'm
+            </p>
+            <p className="text-teal-400" data-aos="zoom-in">
+              {/* eslint-disable-next-line react/no-unescaped-entities */}
+              Muhammad
+            </p>
+            <p className="text-teal-300" data-aos="zoom-in">
+              {/* eslint-disable-next-line react/no-unescaped-entities */}
+              Annas
+            </p>
           </div>
         </div>
       </div>
     </div>
   );
 };
+
 export default Hero;
